@@ -1,5 +1,6 @@
-#include <iostream>
+#include "stdafx.h"
 #include "Header.h"
+#include <iostream>
 
 void PassByValue(int num) {
 	std::cout << "Inside PassByValue()" << std::endl;
