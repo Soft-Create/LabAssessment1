@@ -10,6 +10,6 @@ void PassByValue(int num) {
 
 void PassByRef(int &num) {
 	cout << "Inside PassByRef()" << endl;
-	num *= 5;
+	num = 50;
 	cout << "num = " << num;
 }
