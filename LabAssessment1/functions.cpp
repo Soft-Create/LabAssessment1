@@ -1,15 +1,14 @@
 #include <iostream>
-
-using namespace std;
+#include "Header.h"
 
 void PassByValue(int num) {
-	cout << "Inside PassByValue()" << endl;
+	std::cout << "Inside PassByValue()" << std::endl;
 	num += 50;
-	cout << "num = " << num << endl;
+	std::cout << "num = " << num << std::endl;
 }
 
 void PassByRef(int &num) {
-	cout << "Inside PassByRef()" << endl;
+	std::cout << "Inside PassByRef()" << std::endl;
 	num = 50;
-	cout << "num = " << num;
+	std::cout << "num = " << num<<std::endl;
 }
